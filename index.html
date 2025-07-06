@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>旷野 - 上海露营地查找</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>旷野</h1>
+      <p class="tagline">在城市中寻找自然的呼吸</p>
+    </div>
+  </header>
+  <main>
+    <div class="fixed-section">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="搜索露营地名称或位置..." />
+      </div>
+
+      <div class="legend">
+        <span class="legend-item" data-type="facility" data-value="fire"><i class="fas fa-fire yes"></i> 明火</span>
+        <span class="legend-item" data-type="facility" data-value="overnight"><i class="fas fa-moon yes"></i> 过夜</span>
+        <span class="legend-item" data-type="facility" data-value="toilet"><i class="fas fa-toilet"></i> 洗手间</span>
+        <span class="legend-item" data-type="facility" data-value="shower"><i class="fas fa-shower"></i> 淋浴</span>
+        <span class="legend-item" data-type="facility" data-value="electricity"><i class="fas fa-bolt"></i> 电源</span>
+        <span class="legend-item" data-type="facility" data-value="water"><i class="fas fa-faucet"></i> 饮水</span>
+        <span class="legend-item" data-type="facility" data-value="shade"><i class="fas fa-umbrella-beach"></i> 遮阳</span>
+        <span class="legend-item" data-type="facility" data-value="lifeguard"><i class="fas fa-life-ring"></i> 救生</span>
+      </div>
+    </div>
+    <section id="campList" class="camp-list">
+      <div class="results-title">检索结果 <span id="resultCount">0</span></div>
+    </section>
+  </main>
+
+  <!-- Template for campsite cards -->
+  <template id="campCardTemplate">
+    <div class="camp-card">
+      <div class="camp-grid">
+        <div class="camp-left">
+          <h3 class="camp-name"></h3>
+        </div>
+        <div class="camp-right">
+          <span class="camp-location"></span>
+        </div>
+        <div class="camp-left">
+          <div class="camp-address"></div>
+        </div>
+        <div class="camp-right">
+          <span class="camp-distance"></span>
+        </div>
+        <div class="camp-left">
+          <div class="camp-icons"></div>
+        </div>
+        <div class="camp-right">
+          <span class="camp-source"></span>
+        </div>
+        <div class="camp-left">
+          <div class="camp-empty"></div>
+          <div class="camp-contact"></div>
+        </div>
+        <div class="camp-right">
+          <span class="camp-updated"></span>
+        </div>
+      </div>
+    </div>
+  </template>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

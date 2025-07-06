@@ -1,0 +1,471 @@
+[
+  {
+    "name": "东平国家森林公园营地",
+    "location": "崇明区",
+    "address": "崇明区东平林场森林公园内",
+    "latlng": [
+      31.5963,
+      121.4991
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "shower",
+      "electricity",
+      "bbq"
+    ],
+    "source": "携程旅游",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-59351900"
+  },
+  {
+    "name": "滴水湖露营公园",
+    "location": "浦东新区",
+    "address": "浦东新区南汇新城镇环湖西三路1388号",
+    "latlng": [
+      30.9084,
+      121.9321
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "shower",
+      "shade"
+    ],
+    "source": "大众点评",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-68283999"
+  },
+  {
+    "name": "佘山森林公园营地",
+    "location": "松江区",
+    "address": "松江区佘山林荫大道900号",
+    "latlng": [
+      31.0943,
+      121.2073
+    ],
+    "facilities": [
+      "bathroom",
+      "water",
+      "electricity",
+      "shade"
+    ],
+    "source": "松江绿化市容",
+    "updated": "2025-05-02",
+    "contact": "电话: 021-57651205"
+  },
+  {
+    "name": "金山城市沙滩营地",
+    "location": "金山区",
+    "address": "金山区山阳镇海波路333号",
+    "latlng": [
+      30.7246,
+      121.3433
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "lifeguard",
+      "water"
+    ],
+    "source": "金山旅游",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-57251552"
+  },
+  {
+    "name": "世纪公园草坪区",
+    "location": "浦东新区",
+    "address": "浦东新区锦绣路1001号",
+    "latlng": [
+      31.2204,
+      121.5505
+    ],
+    "facilities": [
+      "bathroom",
+      "shade",
+      "water"
+    ],
+    "source": "浦东旅游",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-38761017"
+  },
+  {
+    "name": "青西郊野公园",
+    "location": "青浦区",
+    "address": "青浦区华新镇嘉松中路4665号",
+    "latlng": [
+      31.1689,
+      121.1995
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "electricity",
+      "water"
+    ],
+    "source": "青浦文旅",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-69709207"
+  },
+  {
+    "name": "前卫村露营基地",
+    "location": "崇明区",
+    "address": "崇明区庙镇前卫村",
+    "latlng": [
+      31.5401,
+      121.4142
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "electricity",
+      "bbq",
+      "water"
+    ],
+    "source": "崇明旅游官网",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-59688228"
+  },
+  {
+    "name": "海湾国家森林公园露营地",
+    "location": "奉贤区",
+    "address": "奉贤区海湾镇随塘河路1677号",
+    "latlng": [
+      30.8674,
+      121.5176
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "shower",
+      "shade",
+      "electricity"
+    ],
+    "source": "携程旅游",
+    "updated": "2025-05-02",
+    "contact": "电话: 021-57108281"
+  },
+  {
+    "name": "浦江郊野公园草坪营地",
+    "location": "闵行区",
+    "address": "闵行区浦江镇江月路2578号",
+    "latlng": [
+      31.0678,
+      121.474
+    ],
+    "facilities": [
+      "bathroom",
+      "water",
+      "shade"
+    ],
+    "source": "闵行文旅",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-54222213"
+  },
+  {
+    "name": "高桥滨江露营地",
+    "location": "浦东新区",
+    "address": "浦东新区高桥镇扬高路滨江段",
+    "latlng": [
+      31.3902,
+      121.5209
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "shade",
+      "water"
+    ],
+    "source": "浦东文旅",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-58391217"
+  },
+  {
+    "name": "辰山植物园露营基地",
+    "location": "松江区",
+    "address": "松江区辰花公路3888号",
+    "latlng": [
+      31.0808,
+      121.1841
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "shade",
+      "electricity"
+    ],
+    "source": "上海旅游官网",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-37792288"
+  },
+  {
+    "name": "天马高尔夫露营地",
+    "location": "松江区",
+    "address": "松江区天马山高尔夫路1号",
+    "latlng": [
+      31.0631,
+      121.0964
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "shower",
+      "electricity"
+    ],
+    "source": "大众点评",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-57651999"
+  },
+  {
+    "name": "朱家角古镇营地",
+    "location": "青浦区",
+    "address": "青浦区朱家角镇西井街82号",
+    "latlng": [
+      31.1107,
+      121.0539
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "electricity"
+    ],
+    "source": "青浦旅游",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-59240929"
+  },
+  {
+    "name": "上海之鱼生态园营地",
+    "location": "奉贤区",
+    "address": "奉贤区庄行镇光明村",
+    "latlng": [
+      30.9206,
+      121.3555
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "electricity",
+      "water"
+    ],
+    "source": "奉贤文旅",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-57107736"
+  },
+  {
+    "name": "顾村公园露营区",
+    "location": "宝山区",
+    "address": "宝山区顾村镇沪太路4788号",
+    "latlng": [
+      31.3532,
+      121.3674
+    ],
+    "facilities": [
+      "bathroom",
+      "shower",
+      "shade",
+      "water"
+    ],
+    "source": "宝山文旅",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-56691235"
+  },
+  {
+    "name": "奉贤碧海金沙营地",
+    "location": "奉贤区",
+    "address": "奉贤区海湾旅游区海湾路",
+    "latlng": [
+      30.8518,
+      121.5821
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "lifeguard",
+      "water",
+      "shade"
+    ],
+    "source": "奉贤旅游",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-57107456"
+  },
+  {
+    "name": "横沙岛生态营地",
+    "location": "崇明区",
+    "address": "崇明区横沙乡星月村",
+    "latlng": [
+      31.3689,
+      121.8503
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "water"
+    ],
+    "source": "崇明岛旅游",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-59631368"
+  },
+  {
+    "name": "西沙湿地营地",
+    "location": "崇明区",
+    "address": "崇明区新河镇陈家镇滨江大道",
+    "latlng": [
+      31.4022,
+      121.2903
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "shade"
+    ],
+    "source": "携程旅游",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-59453602"
+  },
+  {
+    "name": "枫泾古镇露营基地",
+    "location": "金山区",
+    "address": "金山区枫泾镇兴枫路",
+    "latlng": [
+      30.8909,
+      121.0111
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "electricity",
+      "water"
+    ],
+    "source": "金山旅游",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-57401180"
+  },
+  {
+    "name": "嘉北郊野公园营地",
+    "location": "嘉定区",
+    "address": "嘉定区嘉北郊野公园",
+    "latlng": [
+      31.3973,
+      121.2369
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "shade"
+    ],
+    "source": "嘉定文化旅游",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-59576508"
+  },
+  {
+    "name": "金山嘴渔村营地",
+    "location": "金山区",
+    "address": "金山区漕泾镇金山嘴村",
+    "latlng": [
+      30.7067,
+      121.4002
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "water",
+      "lifeguard"
+    ],
+    "source": "金山文旅",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-57331234"
+  },
+  {
+    "name": "共青森林公园露营区",
+    "location": "杨浦区",
+    "address": "杨浦区军工路2000号",
+    "latlng": [
+      31.3173,
+      121.5322
+    ],
+    "facilities": [
+      "bathroom",
+      "water",
+      "shade",
+      "electricity"
+    ],
+    "source": "杨浦文旅",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-65412099"
+  },
+  {
+    "name": "淀山湖露营基地",
+    "location": "青浦区",
+    "address": "青浦区金商公路333号",
+    "latlng": [
+      31.0958,
+      120.9583
+    ],
+    "facilities": [
+      "fire",
+      "overnight",
+      "bathroom",
+      "bbq",
+      "electricity",
+      "water",
+      "lifeguard"
+    ],
+    "source": "青浦旅游",
+    "updated": "2025-05-05",
+    "contact": "电话: 021-69207088"
+  },
+  {
+    "name": "南汇郊野公园营地",
+    "location": "浦东新区",
+    "address": "浦东新区惠南镇拱极路2000号",
+    "latlng": [
+      31.0421,
+      121.7605
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "shade",
+      "electricity"
+    ],
+    "source": "浦东文旅",
+    "updated": "2025-05-04",
+    "contact": "电话: 021-68283123"
+  },
+  {
+    "name": "宝山滨江露营区",
+    "location": "宝山区",
+    "address": "宝山区淞滨路2800号",
+    "latlng": [
+      31.3983,
+      121.4969
+    ],
+    "facilities": [
+      "overnight",
+      "bathroom",
+      "water",
+      "shade"
+    ],
+    "source": "宝山旅游",
+    "updated": "2025-05-03",
+    "contact": "电话: 021-66786233"
+  }
+]

@@ -1,0 +1,488 @@
+/* 全局样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+  font-family: "Noto Sans SC", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header.hero {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=60') center/cover;
+  color: #ecf0f1;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  /* reduce height */
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+  font-size: 1.75rem;
+}
+
+.hero-content h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 2.4rem;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hero-content .tagline {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 140px); /* Account for header */
+  overflow: hidden;
+}
+
+.fixed-section {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f4f4f4;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+
+
+/* 图例 */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+.legend-item i {
+  opacity: 0.35;
+  transition: opacity 0.2s;
+  font-size: 1.1rem;
+}
+.legend-item.active i {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.legend-item.active {
+  background: #ecf0f1;
+  border-radius: 4px;
+  padding: 0 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* 图例和图标颜色 - 统一为主题色 */
+.yes {
+  color: #3498db;
+}
+
+.fas.fa-fire.yes {
+  color: #e74c3c;
+}
+
+.fas.fa-moon.yes {
+  color: #9b59b6;
+}
+
+.camp-icons i {
+  color: #3498db;
+  font-size: 1.15rem;
+}
+
+.legend-item i.fa-fire {
+  color: #e74c3c;
+}
+
+.legend-item i.fa-moon {
+  color: #9b59b6;
+}
+
+.legend-item i.fa-toilet, 
+.legend-item i.fa-shower,
+.legend-item i.fa-bolt,
+.legend-item i.fa-faucet,
+.legend-item i.fa-umbrella-beach,
+.legend-item i.fa-life-ring {
+  color: #3498db;
+}
+
+.legend-item.active i {
+  opacity: 1;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 2px rgba(52, 152, 219, 0.3));
+}
+
+/* 搜索框样式 */
+.search-container {
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 6;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: "Noto Sans SC", sans-serif;
+  letter-spacing: 0.2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* 露营地卡片样式 */
+.camp-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(5, auto);
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+  align-items: end;
+  padding: 0.2rem 0;
+}
+
+.camp-grid > div {
+  margin: 0;
+  padding: 0;
+}
+
+.camp-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 1.6em;
+}
+
+.camp-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  min-height: 1.6em;
+  justify-content: flex-end;
+}
+
+.camp-name {
+  margin: 0 0 0.1rem;
+  margin-bottom: 0.1rem;
+  font-size: 1.3rem;
+  color: #2c3e50;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+}
+
+.camp-address {
+  font-size: 0.85rem;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+}
+
+.camp-icons {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.camp-card {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.camp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.camp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.3rem;
+}
+
+.camp-card-header h2 {
+  margin: 0 0 0.15rem 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.camp-location {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  align-self: flex-end;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.camp-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.camp-features li {
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.camp-features li i {
+  margin-right: 0.5rem;
+  color: #27ae60;
+}
+
+.camp-features strong {
+  color: #2c3e50;
+}
+
+.camp-fire i.yes {
+  color: #e74c3c;
+}
+.camp-fire i.no {
+  color: #7f8c8d;
+}
+.camp-overnight i.yes {
+  color: #2ecc71;
+}
+.camp-overnight i.no {
+  color: #7f8c8d;
+}
+
+.camp-icons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.camp-icons i {
+  font-size: 1.1rem;
+}
+
+.camp-card.active {
+  transform: scale(0.99);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.camp-info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font-size: 0.75rem;
+  color: #7f8c8d;
+  gap: 0.2rem;
+  margin-left: auto; /* push to card right edge */
+  min-width: 90px;
+}
+
+.camp-distance { 
+  color:#2980b9; 
+  font-weight: 600; 
+  align-self:flex-end;
+  letter-spacing: 0.5px;
+}
+
+.camp-source{
+  color:#7f8c8d; 
+  align-self:flex-end;
+  font-size: 0.78rem;
+}
+.camp-updated{
+  color:#95a5a6; 
+  align-self:flex-end; 
+  margin-top:auto;
+  font-size: 0.78rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.camp-empty {
+  height: 0.4rem;
+  width: 100%;
+}
+
+.camp-name, .camp-address, .camp-icons, .camp-empty, .camp-contact {
+  margin-bottom: 0.36rem;
+  min-height: 1.4em;
+}
+
+.camp-contact {
+  font-size: 0.85rem;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+}
+
+.camp-contact i {
+  color: #3498db;
+  margin-right: 4px;
+}
+
+.camp-right span {
+  min-width: 90px;
+  line-height: 1.4;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.camp-list {
+  margin-top: 1rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  padding-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.results-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  color: #2c3e50;
+  font-weight: 500;
+  border-left: 3px solid #3498db;
+}
+
+.map-popup h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+  color: #2c3e50;
+}
+
+.map-popup p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.map-popup button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.map-popup button:hover {
+  background: #2980b9;
+}
+
+/* 用户位置标记 */
+.user-location-marker {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.user-dot {
+  background-color: #3498db;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.user-pulse {
+  background-color: rgba(52, 152, 219, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* 响应式设计 */
+@media (min-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .camp-card {
+    padding: 1.25rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-content .tagline {
+    font-size: 1rem;
+  }
+}

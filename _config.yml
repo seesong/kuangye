@@ -1,0 +1,15 @@
+theme: jekyll-theme-cayman
+title: 旷野 - 上海露营地查找
+description: 在城市中寻找自然的呼吸
+baseurl: ""
+url: ""
+exclude:
+  - node_modules
+  - scrape_campsites.js
+  - fetch_real_data.js
+  - generate_campsites.js
+  - migrate_facilities.js
+  - update_data.sh
+  - push_to_netlify.sh
+  - netlify.toml
+  - .gitignore
