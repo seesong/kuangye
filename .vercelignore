@@ -1,0 +1,14 @@
+.github
+README.md
+node_modules
+.gitignore
+scrape_campsites.js
+fetch_real_data.js
+generate_campsites.js
+migrate_facilities.js
+update_data.sh
+push_to_netlify.sh
+push_to_github.sh
+push_github_fix.sh
+netlify.toml
+_config.yml

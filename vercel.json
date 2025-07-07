@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "kuangye-camping",
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "github": {
+    "enabled": false
+  }
+}

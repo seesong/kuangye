@@ -13,16 +13,24 @@
 
 - 前端：HTML, CSS, JavaScript
 - 数据抓取：Node.js, Puppeteer
-- 部署：GitHub Pages
+- 部署选项：GitHub Pages, Netlify, Render (服务端支持)
 
 ## 本地运行
 
 1. 克隆仓库
-2. 使用任何HTTP服务器运行，例如：
+2. 安装依赖：
    ```
-   python -m http.server 3000
+   npm install
    ```
-3. 访问 http://localhost:3000
+3. 启动服务器：
+   ```
+   npm start
+   ```
+   或使用开发模式（仅静态文件）：
+   ```
+   npm run dev
+   ```
+4. 访问 http://localhost:3000
 
 ## 数据更新
 
@@ -31,3 +39,17 @@
 - `fetch_real_data.js` - 从已保存的真实数据集更新信息
 
 数据每天凌晨1点自动更新。
+
+## 部署到Render
+
+1. 注册 [Render](https://render.com) 账户
+2. 连接您的GitHub仓库
+3. 点击 "New Web Service"
+4. 选择仓库并使用以下设置：
+   - 环境: Node
+   - 构建命令: `npm install`
+   - 启动命令: `npm start`
+   - 实例类型: Free
+5. 点击 "Create Web Service"
+
+部署完成后，您可以通过分配的URL访问您的网站。服务器会自动运行数据爬取脚本并每天更新数据。

@@ -1,0 +1,22 @@
+{
+  "name": "kuangye-camping",
+  "version": "1.0.0",
+  "description": "上海露营地查找网站",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "python -m http.server 3000",
+    "deploy": "vercel --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vercel": "^44.2.12"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^22.0.0",
+    "fs-extra": "^11.2.0"
+  }
+}
